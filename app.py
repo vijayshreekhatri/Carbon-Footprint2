@@ -9,7 +9,7 @@ st.title(" Vehicle CO₂ Emissions Dashboard")
 st.markdown("Explore your data and learn which vehicles are the cleanest ")
 
 # 3️ Load CSV file
-df = pd.read_csv("C:/Users/ASTHA/Downloads/CO2 Data (1).csv")  # <-- update path here
+df = pd.read_csv("CO2 Data (1).csv")  # <-- update path here
 df.columns = [col.strip() for col in df.columns]  # clean column names
 
 # 4️ Emissions category column
